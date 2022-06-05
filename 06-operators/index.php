@@ -11,6 +11,8 @@ echo "the division is: ".$div."<br>";
 echo "The multiplication is: ".$mul."<br>";
 echo "The subtraction is: ".$sub."<br>";
 echo "The rest  is: ".$rest."<br>";
+echo "The rest  is: ".$rest."<br>";
+echo "The rest  is: ".$rest."<br>";
 
 
 
