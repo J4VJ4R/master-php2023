@@ -35,8 +35,13 @@ echo "<h1>BUCLE DO WHILE</h1>";
 echo "<h1>EXAMPLE 1</h1>";
 
 $hour = 0;
+$user = "Javier";
 do{
     echo "You is working <br>";
     $hour++;
-}while($hour < 12);
+}while($hour <= 12 && $user == "Javier");
+
+echo "<hr>";
+
+
 
