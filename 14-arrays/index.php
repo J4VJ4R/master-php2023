@@ -36,7 +36,19 @@ echo "</ul>";
 
 $contacts = array(
     array(
-        
+        'Name' => 'Elliot',
+        'Last name' => 'Mr Robot'
     ),
+    array(
+        'Name' => 'Javier',
+        'Last name' => 'Discovery'
+    ),
+    array(
+        'Name' => 'Ely',
+        'Last name' => 'Control'
+    )
 );
-
+echo "<hr>";
+foreach($contacts as $key => $contact){
+    echo $contact['Name']."<br>";
+}
