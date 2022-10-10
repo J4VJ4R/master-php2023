@@ -1,10 +1,6 @@
 <?php
 
-define('name', 'Javier Jaramillo');
+define('nombre', 'Javier');
+define('web', 'jara.com.co');
 
-echo name;
-
-
-echo('<hr>');
-
-echo PHP_OS;
+echo 'nombre: '. nombre.'<br>'. 'web: '. web;
