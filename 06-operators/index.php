@@ -1,18 +1,10 @@
 <?php
 
-$num1 = 48;
-$num2 = 20;
+$num1 = 33;
+$num2 = 2;
 
-$div = $num1 / $num2;
-$mul = $num1 * $num2;
-$sub = $num1 - $num2;
-$rest = $num1 % $num2;
-echo "the division is: ".$div."<br>";
-echo "The multiplication is: ".$mul."<br>";
-echo "The subtraction is: ".$sub."<br>";
-echo "The rest  is: ".$rest."<br>";
-echo "The rest  is: ".$rest."<br>";
-echo "The rest  is: ".$rest."<br>";
-
-
-
+echo 'suma: '.($num1 + $num2).'<br>';
+echo 'Resta: '.($num1 - $num2).'<br>';
+echo 'Multiplicación: '.($num1 * $num2).'<br>';
+echo 'División: '.($num1 / $num2).'<br>';
+echo 'Resto: '.($num1 % $num2).'<br>';
