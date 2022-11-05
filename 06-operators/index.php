@@ -1,25 +1,13 @@
 <?php
 
-$num1 = 33;
-$num2 = 2;
+$n1 = 5;
+$n2 = 3;
 
-echo 'suma: '.($num1 + $num2).'<br>';
-echo 'Resta: '.($num1 - $num2).'<br>';
-echo 'Multiplicación: '.($num1 * $num2).'<br>';
-echo 'División: '.($num1 / $num2).'<br>';
-echo 'Resto: '.($num1 % $num2).'<br>';
 
-//incremente y decremento
+echo '<h3>suma: '. ($n1 + $n2).'</h3>';
+echo '<h3>resta: '. ($n1 - $n2).'</h3>';
+echo '<h3>multiplicación: '. ($n1 * $n2).'</h3>';
+echo '<h3>división: '. ($n1 / $n2).'</h3>';
+echo '<h3>residuo: '. ($n1 % $n2).'</h3>';
 
-$year = 2022;
 
-//incremento
-
-$year++;
-
-echo $year;
-
-//decremento
-
-$year--;
-echo '-'.$year;
