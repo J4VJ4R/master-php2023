@@ -1,4 +1,4 @@
 <?php
 
-echo $_GET['name']." ";
-echo $_GET['lastname'];
+echo $_POST['name']." ";
+echo $_POST['lastname'];
