@@ -1,10 +1,7 @@
 <?php
 
-define('nombre', 'Javier');
-define('web', 'jara.com.co');
+define('name', 'Javier');
+define('apellido', 'Jaramillo');
 
-echo 'nombre: '. nombre.'<br>'. 'web: '. web;
-
-//constantes predefinidas
-
-echo nombre.' '.web;
+echo '<h1>'.name.' '.apellido.'</h1>';
+echo '<h1>'.__NAMESPACE__.' '.__DIR__.'</h1>';
