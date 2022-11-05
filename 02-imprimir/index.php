@@ -8,16 +8,13 @@
 </head>
 <body>
     <?php
-    echo '<h2> este es un h2</h2>'
-    . '<ul>'
-    . '<li> item 1 </li>'
-    . '<li> item 2 </li>'
-    . '</ul>'
-    .'<p> lorem ipsum</p>';
+        echo '<h1>List of food</h1>'
+            . '<ul>'
+            . '<li>'
+            . '<h3>chicken</h3>'
+            . '</li>'
+            . '</ul>';
+
     ?>
 </body>
 </html>
-
-<?php
-
-
