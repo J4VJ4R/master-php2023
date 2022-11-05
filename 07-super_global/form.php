@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <title>Document</title>
 </head>
 <body>
-    <form action="get.php" method="post">
+    <h1>PHP form</h1>
+    <form method="GET" action="get.php">
+    <p>
         <label for="name">Name</label>
-        <input type="text" name="name">
-        <br><br>
-        <label for="lastName">Lastname</label>
-        <input type="text" name="lastName">
-        <br>
-        <button type="submit">Send</button>
-
+        <input type="text" name="name" id="">
+    </p>
+    <p>
+        <label for="lastname">Lastname</label>
+        <input type="text" name="lastname" id="">
+    </p>
+    <input type="submit" value="send message">
     </form>
 </body>
 </html>
