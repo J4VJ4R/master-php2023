@@ -42,3 +42,18 @@ if($oficial_age >= $min && $oficial_age <= $max){
 }else{
    echo("you can't work");
 }
+
+// Logical operator || or
+
+echo("<hr>");
+
+
+// here speak spanish
+
+$city = "Estados Unidos";
+
+if($city == "Colombia" || $city == "España" || $city == "Argentina"){
+   echo("Here speak spanish");
+}else{
+   echo("Here don't speak spanish");
+}
