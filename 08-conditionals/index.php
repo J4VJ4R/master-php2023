@@ -27,3 +27,18 @@ if($day == 1){
 }else{
    echo("error");
 }
+
+//Logic operator AND
+
+echo("<hr>");
+
+//age for work
+$min = 18;
+$max = 60;
+$oficial_age = 20;
+
+if($oficial_age >= $min && $oficial_age <= $max){
+   echo("You can work");
+}else{
+   echo("you can't work");
+}
