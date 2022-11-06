@@ -9,3 +9,21 @@ if($year == 2022){
 }else{
    echo "we aren't on 2022";
 }
+
+// conditional elseif
+
+//Day of the week
+
+echo("<hr>");
+
+$day = 1;
+
+if($day == 1){
+   echo("is Monday");
+}elseif($day == 2){
+   echo("is Tuesday");
+}elseif($day == 3){
+   echo("is wednesday");
+}else{
+   echo("error");
+}
