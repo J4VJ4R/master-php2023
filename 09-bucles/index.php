@@ -13,3 +13,16 @@ while($num <= 20){
     }
     $num++;
 }
+
+echo("<hr>");
+
+// Table of multiplication
+
+if(isset($_GET['num1'])){
+    $num1 = $_GET['num1'];
+    echo($num1);
+}else{
+    echo("Enter a number for url example: /?num1=11");
+}
+
+echo("<hr>");
