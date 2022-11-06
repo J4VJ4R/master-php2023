@@ -57,3 +57,20 @@ if($city == "Colombia" || $city == "España" || $city == "Argentina"){
 }else{
    echo("Here don't speak spanish");
 }
+
+echo("<hr>");
+
+//  Control structure SWITCH
+
+$day = 1;
+
+switch($day){
+   case 1:
+      echo("is monday");
+      break;
+   case 2:
+      echo("is tuesday");
+      break;
+   default:
+      echo("find de semana");
+}
