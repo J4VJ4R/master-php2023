@@ -74,3 +74,17 @@ switch($day){
    default:
       echo("find de semana");
 }
+
+echo("<hr>");
+
+// Operador goto
+
+goto paso_5;
+
+echo("paso 1");
+echo("paso 2");
+echo("paso 3");
+echo("paso 4");
+
+paso_5:
+   echo("I have join to five step");
