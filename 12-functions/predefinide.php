@@ -35,3 +35,31 @@ echo(pi());
 echo("<hr/>");
 
 echo(round(8.489209));
+
+//count characters
+echo("<hr/>");
+
+$name = "Javier";
+
+echo('the word contain '.strlen($name).' letters');
+
+//find word or character
+echo("<hr/>");
+
+$sentence = "the car w don't work";
+
+echo(strpos($sentence, 'w'));
+
+//change word
+
+echo("<hr/>");
+$sentence = str_replace('the', 'you', $sentence);
+echo $sentence;
+//change uppercase
+echo("<hr/>");
+
+echo strtoupper($sentence);
+//chage lowercase
+echo("<hr/>");
+
+echo strtolower($sentence);
