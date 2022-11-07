@@ -1,9 +1,7 @@
 <?php
 
-// show all numbers where each one is pair
-
-for($num = 1; $num <= 100; $num++){
-    if($num % 2 == 0){
-        echo "$num <br>";
+for($i=0; $i<=100; $i++){
+    if($i%2 == 0){
+        echo('<h3>'.$i.'</h3>');
     }
 }
