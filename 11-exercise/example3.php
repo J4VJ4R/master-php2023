@@ -1,8 +1,7 @@
 <?php
-
-// show square numbers of first fourty numbers
-
-for($num = 0; $num <= 40; $num++){
-    $result = $num * $num;
-    echo "The square number of $num is :".$result."<br>";
+$num = 0;
+while($num <= 40){
+    $result = ($num * $num);
+    echo('<h3>'.$result.'</h3>');
+    $num++;
 }
