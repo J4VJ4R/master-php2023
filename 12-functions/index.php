@@ -49,3 +49,26 @@ function name($name){
 }
 
 echo name("Javier");
+
+// Call a function inside another function
+
+$string = "";
+
+function name2($name){
+    $string = $name;
+    return $string;
+}
+
+function lastN($lastName){
+    $string = $lastName;
+    return $string;
+}
+
+function getNames($name, $lastN){
+    $string = name2($name)." ".lastN($lastN);
+
+    return "The full name is: $string";
+}
+echo("<hr/>");
+
+echo(getNames('Javier', 'Jaramillo'));
