@@ -38,5 +38,29 @@ $menu_day = array(
 
 print_r($menu_day);
 
+// Multidimensional arrays
+
+echo("<hr/>");
+$contactos = array(
+    array(
+        'name' => 'Javier',
+        'email' => '1@jara.com'
+    ),
+    array(
+        'name' => 'Jose',
+        'email' => '1@jose.com'
+    )
+);
+
+// print_r($contactos);
+
+foreach($contactos as $key => $contacto){
+    // echo $contacto['name']."<br/>";
+    // echo $contacto['email']."<br/>";
+    // echo("<hr/>");
+
+    echo "name: ".$contacto['name']." ".$contacto['email']."<br/>";
+}
+
 
 
