@@ -4,16 +4,26 @@
 
 $movies = array("Drácula", "Ironman", "The Avengers");
 
-$songs = ['Shakira', 'MK'];
+$songs = ['Shakira', 'MK', 'U2', 'DREAMS'];
 
 print_r($movies);
 echo("<hr/>");
 
 print_r($songs);
+
 // shoy array with for
 echo("<hr/>");
-echo "<lu>";
+echo "<ul>";
 for($i=0; $i<count($movies); $i++){
     echo "<li>". $movies[$i]."</li>";
 }
-echo "</lu>";
+echo "</ul>";
+
+// show array with foreach
+echo("<hr/>");
+echo "<ul>";
+foreach($songs as $song){
+    echo "<li>". $song."</li>";
+}
+echo "</ul>";
+
