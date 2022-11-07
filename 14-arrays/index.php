@@ -27,3 +27,16 @@ foreach($songs as $song){
 }
 echo "</ul>";
 
+// asociative arrays
+echo("<hr/>");
+
+$menu_day = array(
+    'breack_fast' => 'eggs',
+    'lunch' => 'potato',
+    'late_nigth' => 'coffee'
+);
+
+print_r($menu_day);
+
+
+
