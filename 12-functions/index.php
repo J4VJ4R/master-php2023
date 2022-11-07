@@ -24,19 +24,28 @@ function calculator($val1, $val2, $negrita = False){
     $mult = $val1 * $val2;
     $div = $val1 / $val2;
     $rest = $val1 % $val2;
-
-    echo("suma = $suma <br/>");
-    echo("resta = $resta <br/>");
-    echo("mult = $mult <br/>");
-    echo("div = $div <br/>");
-    echo("rest = $rest <br/>");
-    echo("<hr/>");
+    $string = "";
+    $string = "suma = $suma <br/>";
+    $string .= "resta = $resta <br/>";
+    $string .= "mult = $mult <br/>";
+    $string .= "div = $div <br/>";
+    $string .= "rest = $rest <br/>";
+    $string .= "<hr/>";
     if($negrita){
-        echo('</h1>');
+        $string .= '</h1>';
     }
+    return $string;
 
 }
 
-calculator(5, 11, 'True');
-calculator(5, 12);
+echo(calculator(5, 11, 'True'));
+echo (calculator(5, 12));
 calculator(5, 10);
+
+//return in a function is the correct way
+
+function name($name){
+    return $name;
+}
+
+echo name("Javier");
