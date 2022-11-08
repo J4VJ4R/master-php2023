@@ -1,22 +1,37 @@
 <?php
 
-$singers = ['2pac', 'Shackira', 'Robie Williams', 'Alfredo'];
+$numbers = [1, 2, 3, 7, 10, 4];
 
-//for ordering
 
-arsort($singers);
-// var_dump($singers);
+//sort
+sort($numbers);
+foreach($numbers as $number){
+    echo("<h3>".$number."</h3>");
+}
+echo "<hr/>";
+//asort
+asort($numbers);
 
-//adding elements in array
+foreach($numbers as $number){
+    echo("<h3>".$number."</h3>");
+}
 
-$singers[] = 'David';
+//add items with normal form 
+echo "<hr/>";
+$numbers[] = 11;
+foreach($numbers as $number){
+    echo("<h3>".$number."</h3>");
+}
+//add items with push form 
+echo "<hr/>";
+array_push($numbers, 110);
+foreach($numbers as $number){
+    echo("<h3>".$number."</h3>");
+}
 
-//delete elements array
-array_pop($singers);
-unset($singers[2]);
-// var_dump($singers);
-
-//random
-
-$index = array_rand($singers);
-echo $singers[$index];
+//search
+echo "<hr/>";
+var_dump(array_search(110, $numbers));
+//count
+echo "<hr/>";
+echo count($numbers);
