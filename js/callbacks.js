@@ -1,7 +1,7 @@
 'use strict';
 
 function mensaje1(fn){
-    setTimeout( function() {
+    setTimeout( () => {
         console.log('Message 1');
         fn();
     }, 3000);
