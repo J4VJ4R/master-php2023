@@ -2,11 +2,17 @@
 require 'vendor/autoload.php';
 
 class Post{
-    
+    // Propieties
+    private string $id = "123";
+
+
+    // Methods
+    public function saludo(){
+        return "Hello Jav your id is: $this->id";  
+    }
+
 }
 
 $object1 = new Post;
-$object2 = new Post;
-$object3 = new Post;
 
-var_dump($object1);
+echo $object1->saludo();
