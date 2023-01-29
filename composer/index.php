@@ -5,6 +5,12 @@ class Post{
     // Propieties
     private string $id = "123";
 
+    //Construct
+    public function __construct(private string $message)
+    {
+        echo "Was created an object";
+        $this->id = uniqid();
+    }
 
     // Methods
     private function saludo(){
@@ -16,6 +22,10 @@ class Post{
         return $this->id;
     }
 
+    public function getMessage(){
+        return $this->message;
+    }
+
     // Setters
     public function setId(string $id){
         $this->id = $id;
@@ -24,6 +34,6 @@ class Post{
 
 }
 
-$object1 = new Post;
+$object1 = new Post("This is my second post");
 
-echo $object1->setId('etc_123');
+echo $object1->getMessage();
