@@ -12,12 +12,18 @@ class Post{
     }
 
     //Getters
-    function getId(){
+    public function getId(){
         return $this->id;
+    }
+
+    // Setters
+    public function setId(string $id){
+        $this->id = $id;
+        return $id;
     }
 
 }
 
 $object1 = new Post;
 
-echo $object1->getId();
+echo $object1->setId('etc_123');
