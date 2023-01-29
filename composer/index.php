@@ -7,12 +7,17 @@ class Post{
 
 
     // Methods
-    public function saludo(){
+    private function saludo(){
         return "Hello Jav your id is: $this->id";  
+    }
+
+    //Getters
+    function getId(){
+        return $this->id;
     }
 
 }
 
 $object1 = new Post;
 
-echo $object1->saludo();
+echo $object1->getId();
