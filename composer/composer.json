@@ -1,0 +1,15 @@
+{
+    "name": "xavi/composer",
+    "autoload": {
+        "psr-4": {
+            "Xavi\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Javi",
+            "email": "ingenierodesoftware73@gmail.com"
+        }
+    ],
+    "require": {}
+}
