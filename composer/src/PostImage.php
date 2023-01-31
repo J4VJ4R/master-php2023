@@ -21,9 +21,9 @@ class PostImage extends Post{
     
 
     // Getters
-    public function getMessagePost()
+    public function getPathImage()
     {
-        return $this->saludo();
+        return $this->pathImage;
     }
     
 }
