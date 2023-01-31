@@ -1,13 +1,16 @@
 <?php
 
-namespace Xavi\Composer\modelos;
+namespace Xavi\Composer;
 
 class Post{
     // Propieties
-    private string $id = "123";
+    private string $id;
 
     //Construct
-    public function __construct(private string $message)
+    public function __construct(
+        // Parameters
+        private string $message
+        )
     {
         echo "Was created an object";
         $this->id = uniqid();

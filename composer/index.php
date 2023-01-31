@@ -1,9 +1,9 @@
 <?php
 require 'vendor/autoload.php';
 
-use Xavi\Composer\modelos\Post;
+use Xavi\Composer\Post;
 
 
-$object1 = new Post("This is my second post");
+$myobj = new Post("tu y solo tu");
 
-echo $object1->getMessage();
+echo $myobj->getMessage();
