@@ -20,7 +20,7 @@ class Post{
     }
 
     // Methods
-    private function saludo(){
+    protected function saludo(){
         return "Hello Jav your id is: $this->id";  
     }
 
@@ -31,6 +31,10 @@ class Post{
 
     public function getMessage(){
         return $this->message;
+    }
+
+    public function getSaludo(){
+        return $this->saludo();
     }
 
     // Setters

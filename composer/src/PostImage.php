@@ -23,7 +23,7 @@ class PostImage extends Post{
     // Getters
     public function getMessagePost()
     {
-        return $this->getMessage();
+        return $this->saludo();
     }
     
 }
