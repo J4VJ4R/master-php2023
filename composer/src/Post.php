@@ -7,6 +7,7 @@ use Xavi\Composer\utils\Uuid;
 class Post{
     // Propieties
     private string $id;
+    private array $likes;
 
     //Construct
     public function __construct(
@@ -14,7 +15,7 @@ class Post{
         private string $message
         )
     {
-        echo "Was created an object";
+        echo "Was create object";
         $this->id = Uuid::generate();
     }
 
