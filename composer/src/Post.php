@@ -2,6 +2,8 @@
 
 namespace Xavi\Composer;
 
+use Xavi\Composer\utils\Uuid;
+
 class Post{
     // Propieties
     private string $id;
@@ -13,7 +15,7 @@ class Post{
         )
     {
         echo "Was created an object";
-        $this->id = uniqid();
+        $this->id = Uuid::generate();
     }
 
     // Methods
