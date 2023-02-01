@@ -2,7 +2,9 @@
 
 namespace Xavi\Composer;
 
-class PostImage extends Post{
+use Xavi\Composer\IPost;
+
+class PostImage extends Post implements IPost{
     // Proprieties
 
     // Construct
@@ -26,4 +28,14 @@ class PostImage extends Post{
         return $this->pathImage;
     }
     
+    // Interface
+    public function toString(): string
+    {
+        $info = "id: " . $this->getId() . " \n";
+        $info .= "Mensaje: " . $this->getMessage() . "\n";
+        $info .= "Imagen: " . $this->getPathImage() . "\n";
+        $info .= "Likes: " . count($this->getLikes()) . "\n\n";
+
+        return $info;
+    }
 }
