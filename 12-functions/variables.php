@@ -1,39 +1,15 @@
 <?php
 
-// global variables
+//variables funciones
 
-$globalName = 'Javier';
-
-function name(){
-    global $globalName;
-    return $globalName;
+function buenosDias(){
+    return "Buenos días";
 }
 
-echo(name());
-
-// variables functions
-echo("<hr/>");
-
-function goodMorning(){
-    return "<h2>good morning Javier</h2>";
+function buenosNoches(){
+    return "Buenas Noches";
 }
 
-function goodAfternoon(){
-    return'<h2>good afternoon Javier</h3>';
-}
+$horario = "buenos".$_GET['horario'];
 
-function goodEvening(){
-    return '<h3>good evening Javier</h3>';
-}
-if(isset($_GET['horario'])){
-    $horario = $_GET['horario'];
-    $saludo = "$horario";
-    echo($saludo());
-}else{
-    echo("enter horario on url field");
-}
-
-
-
-
-
+echo $horario();
