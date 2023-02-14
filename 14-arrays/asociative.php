@@ -1,11 +1,12 @@
 <?php
-// arrays asociativos
-$array = array("name" => 'javier', "number" => 22);
 
-echo ($array["number"]);
+// Associtive arrays
+$user = [
+    "name" => "Javier",
+    "lastname" => "Jaramillo",
+    "level" => "Senior"
+];
 
-//arrays predefinidos
+// var_dump($user["name"]);
 
-$array2 = array("apple", "orange");
-
-echo(" $array2[1]");
+var_dump($_GET);
