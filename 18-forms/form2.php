@@ -42,6 +42,18 @@
         <label for="date">Fecha</label>
         <input type="date" name="date" id=""><br>
 
+        <label for="text">Mensaje</label>
+        <textarea name="text" id="" maxlength=10 cols="30" rows="10"></textarea><br>
+
+        <label for="selection">Frutas</label>
+        <select name="selection" id="">
+            <option value="Manzana">Manzana</option>
+            <option value="Manzana">Coco</option>
+            <option value="Manzana">Pera</option>
+            <option value="Manzana">Piña</option>
+            <option value="Manzana">Fresa</option>
+        </select><br>
+
         <input type="submit" value="Enviar datos">
     </form>
 </body>
