@@ -1,3 +1,13 @@
+<?php
+
+if (isset($_POST['error'])) {
+    # code...
+    $error = "You should enter complete data";
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +17,9 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="" method="post">
+    <h1>Formulario</h1>
+    <h3 style="color: red;" ><?= $error ?> </h3>
+    <form action="procesar_form.php" method="post">
 
         <label for="name">Nombre</label>
         <input type="text" name="name" required pattern="[A-Za-z]+" id=""><br>
