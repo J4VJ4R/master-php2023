@@ -1,9 +1,38 @@
 <?php
-
-if (isset($_POST['error'])) {
+if (isset($_GET['error'])) {
     # code...
-    $error = "You should enter complete data";
+    var_dump($_GET['error']);
+    if ($_GET['error'] == "name") {
+        # code...
+        $error = "Ingresa un nombre correcto";
+    }
+
+    if ($_GET['error'] == "error") {
+        # code...
+        $error = "Enter all data";
+    }
+
+    if ($_GET['error'] == "lastname") {
+        # code...
+        $error = "Enter a correct lastname";
+    }
+
+    if ($_GET['error'] == "age") {
+        # code...
+        $error = "Enter a correct age only numbers";
+    }
+
+    if ($_GET['error'] == "email") {
+        # code...
+        $error = "Enter a correct email";
+    }
+
+    if ($_GET['error'] == "password") {
+        # code...
+        $error = "The password should to have more than 5 characters";
+    }
 }
+
 
 ?>
 
@@ -19,7 +48,7 @@ if (isset($_POST['error'])) {
 <body>
     <h1>Formulario</h1>
     <h3 style="color: red;" ><?= $error ?> </h3>
-    <form action="procesar_form.php" method="post">
+    <form action="procesar_form.php" method="POST">
 
         <label for="name">Nombre</label>
         <input type="text" name="name" required pattern="[A-Za-z]+" id=""><br>
@@ -34,7 +63,7 @@ if (isset($_POST['error'])) {
         <input type="email" name="email" required  id=""><br>
         
         <label for="pass">Contraseña</label>
-        <input type="password" name="pass" required  id=""><br>
+        <input type="password" name="pass" required><br>
         
         <input type="submit" value="Send data">
     </form>
