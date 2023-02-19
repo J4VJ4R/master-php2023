@@ -24,7 +24,13 @@
 // rename("copy_file.txt", "renamed_file.php");
 
 // Delete file
-unlink("renamed_file.php") or die("Error to delete file");
+// unlink("renamed_file.php") or die("Error to delete file");
+if (is_file("file.txt")) {
+    # code...
+    echo "<h2> El archivo existe</h2>";
+}else{
+    echo "<h2> El archivo no existe</h2>";
+}
 
 ?>
 
