@@ -15,15 +15,15 @@
     </form>
     <?php
         $gestor = opendir('./images');
-        if($gestor){
-            while (($image = readdir($gestor)) !== false) {
+        if($gestor):
+            while (($image = readdir($gestor)) !== false):
                 # code...
-                if ($image != '.' && $image != '..') {
+                if ($image != '.' && $image != '..'):
                     # code...
                     echo "<br><img src='./images/$image' width='200px'><br>";
-                }
-            }
-        }
+                endif;
+            endwhile;
+        endif;
     ?>
 </body>
 </html>
