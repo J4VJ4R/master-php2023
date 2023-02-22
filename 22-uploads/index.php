@@ -13,5 +13,17 @@
         <input type="file" name="archivo">
         <input type="submit" value="Sent data">
     </form>
+    <?php
+        $gestor = opendir('./images');
+        if($gestor){
+            while (($image = readdir($gestor)) !== false) {
+                # code...
+                if ($image != '.' && $image != '..') {
+                    # code...
+                    echo "<br><img src='./images/$image' width='200px'><br>";
+                }
+            }
+        }
+    ?>
 </body>
 </html>

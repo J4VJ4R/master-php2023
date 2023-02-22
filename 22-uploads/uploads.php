@@ -14,6 +14,7 @@ if ($type == "image/png" || $type == "image/jpg" || $type == "image/gif" || $typ
         move_uploaded_file($archivo['tmp_name'], "./images/".$name );
         echo "<h1>Upload successfull</h1>";
     }else{
+        header("Refresh: 5; URL=index.php");
         move_uploaded_file($archivo['tmp_name'], "./images/".$name );
         echo "Upload $name succesfull";
     }
