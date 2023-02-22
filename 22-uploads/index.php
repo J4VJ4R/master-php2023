@@ -8,8 +8,9 @@
 </head>
 <body>
     <h1>Upload files</h1>
-    <form action="uploads.php" method="post">
-        <input type="file" name="file" id="" enctype="multipart/form-data">
+    <form method="POST" action="uploads.php" enctype="multipart/form-data">
+        <input type="text" name="name" id="">
+        <input type="file" name="archivo">
         <input type="submit" value="Sent data">
     </form>
 </body>
