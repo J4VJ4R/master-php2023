@@ -9,7 +9,7 @@
 <body>
     <h1>Upload files</h1>
     <form method="POST" action="uploads.php" enctype="multipart/form-data">
-        <input type="text" name="name" id="">
+        <label for="archivo">Upload iamges</label>
         <input type="file" name="archivo">
         <input type="submit" value="Sent data">
     </form>
