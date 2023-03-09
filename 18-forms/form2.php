@@ -9,7 +9,7 @@
 </head>
 <body>
     <form action="" method="get">
-        <label for="genre">Sexo</label>
+        <!-- <label for="genre">Sexo</label>
         <input type="checkbox" name="gnre" id="" value="Hombre">
         <input type="checkbox" name="gnre" id="" value="Mujer"><br>
 
@@ -30,29 +30,30 @@
 
         <label for="pass">Contraseña</label>
         <input type="password" name="pass" id=""><br>
+        -->
 
         <label for="fruits">Frutas</label>
-        Naranja: <input type="radio" name="fruits" id="" value="Orange">
+        Naranja: <input type="checkbox" name="fruits" id="" value="Orange">
         Manzana: <input type="radio" name="fruits" id="" value="Apple">
         Coco: <input type="radio" name="fruits" id="" value="Coconut"><br>
 
-        <label for="url">Url</label>
+        <!-- <label for="url">Url</label>
         <input type="url" name="url" id=""><br>
 
         <label for="date">Fecha</label>
-        <input type="date" name="date" id=""><br>
-
+        <input type="date" name="date" id=""><br>  -->
+<!-- 
         <label for="text">Mensaje</label>
-        <textarea name="text" id="" maxlength=10 cols="30" rows="10"></textarea><br>
+        <textarea name="text" id="" maxlength=10 cols="30" rows="10" required pattern></textarea><br> -->
 
-        <label for="selection">Frutas</label>
+        <!-- <label for="selection">Frutas</label>
         <select name="selection" id="">
             <option value="Manzana">Manzana</option>
             <option value="Manzana">Coco</option>
             <option value="Manzana">Pera</option>
             <option value="Manzana">Piña</option>
             <option value="Manzana">Fresa</option>
-        </select><br>
+        </select><br> -->
 
         <input type="submit" value="Enviar datos">
     </form>
