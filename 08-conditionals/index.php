@@ -48,3 +48,25 @@ if($temperature >= 30 && $temperature <= 45){
 }else{
     echo 'Temperature out of the range';
 }
+
+echo '<hr>';
+
+
+// Switch
+
+$day = 11;
+
+switch ($day) {
+    case 1 :
+        echo 'Monday';
+        break;
+    case 2 :
+        echo 'Tuesday';
+        break;
+    case 3 :
+        echo 'Wensday';
+        break;
+    default:
+        echo 'The value should be number between 1 to 3';
+        break;
+}
