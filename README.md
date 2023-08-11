@@ -34,7 +34,7 @@ Contributions are welcome! You can contribute by adding more exercises, correcti
 If you have any questions, suggestions, or comments about this project, don't hesitate to contact me:
 
 - LinkedIn: [Javier Fullstack](https://www.linkedin.com/in/javier-fullstack/)
-- Email: your.email@example.com
+- Email: ingenierodesoftware73@gmail.com
 
 You can also check out my CV [here](https://j4vj4r.github.io/javierjaramillo.github.io/).
 
