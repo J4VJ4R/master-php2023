@@ -1,7 +1,0 @@
-Componentes de entrada
-    Sessions
-Procesos
-    Aumentar valor en uno
-    Disminuya el valor en uno
-Condición
-    si el paŕametro get counter está en uno o cero
