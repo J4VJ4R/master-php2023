@@ -70,3 +70,14 @@ switch ($day) {
         echo 'The value should be number between 1 to 3';
         break;
 }
+
+// goto
+echo '<hr>';
+
+goto jump1;
+
+echo 'first jump';
+echo 'second jump';
+
+jump1:
+echo 'thirdh jump';
