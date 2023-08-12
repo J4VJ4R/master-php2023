@@ -18,3 +18,10 @@ while ($multiplicator <= 10) {
     echo $number.' x '. $multiplicator. ' = '. ($number * $multiplicator). '<br>';
     $multiplicator++;
 }
+
+echo '<hr>';
+$a = 0;
+do {
+    echo 'Put on jacket<br>';
+    $a++;
+} while ($a <= 10 && $temperature <= 21);
