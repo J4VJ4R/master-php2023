@@ -15,7 +15,7 @@
             <table class="table table-bordered">
                 <thead>
                     <tr>
-                        <th scope="col">Tabla del <?= $j ?></th>
+                        <th scope="col">Tabla of <?= $j ?></th>
                         
                     </tr>
                 </thead>
