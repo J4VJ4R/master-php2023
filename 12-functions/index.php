@@ -38,3 +38,22 @@ function calc($value1, $value2, $strong = false){
 
 echo calc(5, 10);
 echo calc(5, 10, true);
+
+echo '<hr>';
+
+function getName($name){
+  $txt = $name;
+  return $txt;
+}
+
+function getLastName($lastname){
+  $txt = $lastname;
+  return $txt;
+}
+
+function getFullName($name, $lastname){
+  $txt = getName($name).'<br/>'. getLastName($lastname);
+  return $txt;
+}
+
+echo getFullName('Javier', 'Jara');
