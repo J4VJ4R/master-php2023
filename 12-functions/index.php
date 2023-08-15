@@ -21,19 +21,20 @@ function calc($value1, $value2, $strong = false){
   $div = $value1 / $value2;
   $resid = $value1 % $value2;
 
+  $string = '';
   if($strong){
-    echo '<h1>';
+    $string .= '<h1>';
   }
-  echo 'Sum: '.$sum.'<br>';
-  echo 'Remains: '.$rest.'<br>';
-  echo 'Multiplication: '.$mul.'<br>';
-  echo 'Division: '.$div.'<br>';
+  $string .= 'Sum: '.$sum.'<br>';
+  $string .= 'Remains: '.$rest.'<br>';
+  $string .= 'Multiplication: '.$mul.'<br>';
+  $string .= 'Division: '.$div.'<br>';
+  $string .= 'Residue: '.$resid.'<hr>';
   if($strong){
-    echo '</h1>';
+    $string .= '</h1>';
   }
-  echo 'Residue: '.$resid.'<hr>';
+  return $string;
 }
 
-calc(5, 10);
-calc(5, 100, true);
-calc(55, 10);
+echo calc(5, 10);
+echo calc(5, 10, true);
