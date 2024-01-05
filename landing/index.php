@@ -8,6 +8,7 @@
 <body>
   <h1>PHP course</h1>
   <ol>
+    <li><a href="/home.php/">Proyecto Web</a></li>
     <li><a href="/01-hello-world/">Hello world</a></li>
   </ol>
 </body>
