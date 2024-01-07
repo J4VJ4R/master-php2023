@@ -19,7 +19,7 @@
     <li><a href="/09-bucles">Bucles</a></li>
     <li><a href="/10-loop-for">Loop-for</a></li>
     <li><a href="/11-exercises">Exercises</a></li>
-    <li><a href="/12-funciones">Functions</a></li>
+    <li><a href="/12-functions">Functions</a></li>
     <li><a href="/13-predefined">Predefined</a></li>
   </ol>
 </body>

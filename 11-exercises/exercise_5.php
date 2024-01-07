@@ -6,11 +6,11 @@ if (isset($_GET['number1']) && isset($_GET['number2'])) {
     $n2 = $_GET['number2'];
     $start = $n1;
     
-    for ($n1=$start; $n1 < $n2 ; $n1++) { 
+    for ($i=$start; $i <= $n2 ; $n1++) { 
         if ($n1 !== $start) {
-            echo $n1;
+            echo $i;
         }
-        $n1++;
+        $i++;
     }
 }else{
     echo "Doesn't data enter by url, number1=x and number2=x";
