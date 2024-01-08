@@ -21,6 +21,7 @@
     <li><a href="/11-exercises">Exercises</a></li>
     <li><a href="/12-functions">Functions</a></li>
     <li><a href="/13-includes">Includes</a></li>
+    <li><a href="/14-arrays">Arrays</a></li>
   </ol>
 </body>
 </html>
