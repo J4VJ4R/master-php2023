@@ -1,16 +1,9 @@
 <?php
 
-$name = 'Javier';
-
-function name(){
-  global $name;
-  $lastname = 'Jara';
-  echo $name;
-
-  return $lastname;
+function day($saludo){
+  return $saludo;
 }
-global $lastname;
 
+$horario = "Buenos días";
+echo $horario;
 
-echo name();
-name();
