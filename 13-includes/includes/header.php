@@ -15,8 +15,8 @@
   <div>
     <nav>
       <ul>
-        <a href="/master-php2023/13-predefined/"> <li>Home</li></a>
-        <a href="/master-php2023/13-predefined/includes/about_me.php"> <li>About me</li></a>
+        <a href="/13-includes/"> <li>Home</li></a>
+        <a href="/13-includes/includes/about_me.php"> <li>About me</li></a>
         <li>Contact</li>
       </ul>
     </nav>
