@@ -12,3 +12,16 @@ echo "<hr>";
 foreach ($movies as $movie) {
   echo $movie."<br>";
 }
+
+//Asociative arrays
+echo "<br>";
+$persons = array(
+  "Name" => "Javier",
+  "Lastname" => "Jaramillo",
+  "web" => "www.jara.com.co"
+);
+echo "<hr>";
+
+foreach ($persons as $person) {
+  echo $person."<br>";
+}
