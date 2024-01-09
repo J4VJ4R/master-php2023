@@ -25,3 +25,25 @@ echo "<hr>";
 foreach ($persons as $person) {
   echo $person."<br>";
 }
+
+//Multidimensional arrays
+$contacts = array(
+  array(
+    "name" => "Javier",
+    "email" => "javi@gmail.com",
+  ),
+  array(
+    "name" => "Lilian",
+    "email" => "lili@gmail.com",
+  ),
+  array(
+    "name" => "Ana",
+    "email" => "ana@gmail.com",
+  ),
+);
+
+echo "<hr>";
+
+foreach ($contacts as $key => $contact) {
+  echo $contact['email']."<br>";
+}
